@@ -29,17 +29,18 @@ body {
 
 
 header {
-    width: 910px;	/* reduced by 20px to accommodate shadow */
+    width: 930px;	/* reduced by 20px to accommodate shadow */
     margin-bottom: 30px;
     margin-top: 10px;
     text-align: center;
+	background-color: rgb(209, 209, 209);
     border: 1px solid #888888;
     box-shadow: 15px 15px 5px 0 #888888;
     border-radius: 25px;  	
 }
 
 nav {
-    width: 200px;
+    width: 105px;
     margin: 0 5px 0 5px; 
     padding: 25px 10px 0 10px;
     float: left;
@@ -53,7 +54,7 @@ nav ul {
 
 nav ul li a {
     padding: 5px;
-    color: gray;
+    color: navy;
     text-decoration: none;
     display:block;
 }
@@ -65,7 +66,7 @@ nav ul li a:hover {
 }
 
 #main {
-    width: 446px;
+    width: 541px;
     padding: 10px;
     float: left;
     color: black;
@@ -111,13 +112,19 @@ h3 {
     padding-top: 0.5em;
 }
 
+h4 {
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
 footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: gray;
+    background-color: rgb(209, 209, 209);
     clear: both;
-    color: wheat;
+    color: rgb(67, 177, 224);
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
@@ -131,7 +138,7 @@ footer {
     border-radius: 25px;
 }/* navigation for footer */
 footer a:link {
-    color: white;
+    color: navy;
     text-decoration: none;
 }
 
@@ -143,4 +150,13 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
 }
